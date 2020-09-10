@@ -1,4 +1,3 @@
-require "pry"
 class Doctor
   attr_accessor :name
   @@all = []
@@ -12,16 +11,15 @@ class Doctor
     @@all
   end
 
-  def appointments
-    puts @@all
-    binding.pry
-  end
-
-  # def new_appointment
-  #
+  # def appointments
+  # 
   # end
-  #
+  # 
+  # def new_appointment
+  # 
+  # end
+  # 
   # def patients
-  #
+  # 
   # end
 end
