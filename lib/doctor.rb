@@ -11,9 +11,11 @@ class Doctor
     @@all
   end
 
-  # def appointments
-  #
-  # end
+  def appointments
+    Appointment.all.map do |app|
+      app.appointment
+    end
+  end
   #
   # def new_appointment
   #
