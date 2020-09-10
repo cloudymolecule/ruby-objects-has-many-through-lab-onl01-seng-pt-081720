@@ -12,14 +12,14 @@ class Doctor
   end
 
   # def appointments
-  # 
+  #
   # end
-  # 
+  #
   # def new_appointment
-  # 
+  #
   # end
-  # 
+  #
   # def patients
-  # 
+  #
   # end
 end
