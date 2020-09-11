@@ -18,11 +18,11 @@ class Patient
   end
 
   def appointments
-    Appointment.all.select do |app|
+    Appointment.all.each do |app|
+      binding.pry
       app.appointment == self
 
     end
-    binding.pry
   end
 
   # def doctors
