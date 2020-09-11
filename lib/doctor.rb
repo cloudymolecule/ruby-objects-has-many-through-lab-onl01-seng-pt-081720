@@ -14,7 +14,7 @@ class Doctor
 
   def appointments
     Appointment.all.map do |app|
-      app.appointment
+      binding.pry 
     end
   end
   #
