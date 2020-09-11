@@ -22,6 +22,7 @@ class Patient
       app.appointment == self
 
     end
+    binding.pry
   end
 
   # def doctors
