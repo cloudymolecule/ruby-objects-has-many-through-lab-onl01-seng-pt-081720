@@ -13,8 +13,8 @@ class Doctor
   end
 
   def appointments
-    Appointment.all.map do |app|
-      binding.pry 
+    Appointment.all.select do |app|
+      app.doctor == self
     end
   end
   #
