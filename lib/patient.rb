@@ -18,9 +18,9 @@ class Patient
   end
 
   def appointments
-    Appointment.all.each do |app|
+    Appointment.all.map do |app|
       binding.pry
-      app.appointment == self
+      app.patient == self
 
     end
   end
