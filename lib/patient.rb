@@ -19,9 +19,7 @@ class Patient
 
   def appointments
     Appointment.all.map do |app|
-      binding.pry
       app.patient == self
-
     end
   end
 
